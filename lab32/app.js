@@ -7,7 +7,7 @@ var express = require('express'),
 
 server.listen(port, function(){
 
-	console.log('Listen %d', __dirname);
+	console.log('Listen %d', port);
 });
 
 //estaticos
