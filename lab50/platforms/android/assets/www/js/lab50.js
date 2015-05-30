@@ -23,7 +23,7 @@ $(document).on('pagecreate', '#home', function(){
             sourceType: Camera.PictureSourceType.CAMERA,
             destinationType: Camera.DestinationType.FILE_URI,
             allowEdit: true,
-            encodingType: Camera.EncodingType.PNG,
+            encodingType: Camera.EncodingType.JPEG,
             targetWidth: 1024,
             targetHeight: 768
         };
